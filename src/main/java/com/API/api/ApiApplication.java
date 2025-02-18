@@ -16,7 +16,7 @@ public class ApiApplication {
     public GroupedOpenApi publicApi() {
         return GroupedOpenApi.builder()
                 .group("public-api")
-                .pathsToMatch("/**") // Bạn có thể giới hạn các path muốn tài liệu hóa
+                .pathsToMatch("/**") 
                 .build();
     }
 }
